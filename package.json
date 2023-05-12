@@ -1,0 +1,34 @@
+{
+  "name": "@here/flexpolyline",
+  "version": "0.1.0",
+  "description": "Flexible Polyline encoding: a lossy compressed representation of a list of coordinate pairs or triples",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "polyline",
+    "encoding"
+  ],
+  "author": {
+    "name": "HERE Europe B.V.",
+    "url": "https://here.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heremaps/flexible-polyline.git",
+    "directory": "javascript"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
